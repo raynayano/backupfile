@@ -18,3 +18,4 @@ source_dir = input("请输入备份源目录：")
 target_dir = input("请输入备份目标目录：")
 
 backup_files(source_dir, target_dir)
+//以上代码是一个简单的文件备份工具。用户可以在程序运行时输入备份源目录和备份目标目录。程序使用 shutil.copytree() 函数来实现目录的递归复制，将备份源目录下的所有文件和子目录复制到备份目标目录下的一个新目录中，以当前日期和时间命名。
